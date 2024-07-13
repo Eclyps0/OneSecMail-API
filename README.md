@@ -11,4 +11,5 @@ if __name__ == "__main__":
     domains = api.domain_list()
     messages = api.get_messages(username="7u582a", domain="laafd.com")
     single_message = api.fetch_single_message(username="7u582a", domain="laafd.com", message_id=1909355985)
-    attachment = api.download_attachment(username="7u582a", domain="laafd.com", message_id=1909355985, attachment_name="file.pdf", encoding="UTF8")```
+    attachment = api.download_attachment(username="7u582a", domain="laafd.com", message_id=1909355985, attachment_name="file.pdf", encoding="UTF8")
+```
